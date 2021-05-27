@@ -123,7 +123,7 @@ def station_stats(df):
 
 
     popular_combination = df.groupby(['Start Station', 'End Station']).size()
-    print("The most frequent combination is: {}".format(popular_combination.index[0])) # display most frequent combination of start station and end station trip
+    print("The most frequent station combination is: {}".format(popular_combination.index[0])) # display most frequent combination of start station and end station trip
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -149,7 +149,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on user types, gender, and birth year."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
