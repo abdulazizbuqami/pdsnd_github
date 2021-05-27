@@ -7,7 +7,7 @@
 Bikeshare Project
 
 ### Description
-Create an interactive environment using python to explore and analyze bike sharing data.
+Create an interactive environment using python to explore and analyze bike sharing data in 3 U.S. cities **Chicago**, **New York City**, and **Washington**.
 
 ### Files used
 chicago.csv\
